@@ -1,0 +1,11 @@
+paleta de cores que serao usadas
+
+body{
+  background : #010002;
+   
+}
+
+botao{
+    border: solid 1px  #724dc9;
+
+} 
