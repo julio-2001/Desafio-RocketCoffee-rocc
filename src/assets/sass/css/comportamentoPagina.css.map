@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,4BAA4B;AAE5B,6CAA6C;AAK7C,AAAA,IAAI,CAAA;EACA,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;EACtB,eAAe,EAAE,IAAI;EACrB,UAAU,EAXI,OAAO;EAYrB,WAAW,EAAE,qBAAqB;CACrC",
+    "sources": [
+        "comportamentoPagina.scss"
+    ],
+    "names": [],
+    "file": "comportamentoPagina.css"
+}

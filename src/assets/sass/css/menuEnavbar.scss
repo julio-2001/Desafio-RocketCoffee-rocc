@@ -1,0 +1,57 @@
+@import 'comportamentoPagina';
+
+.containerCabeça{
+
+    /*Caixa que guarda a logo e o icone */
+    width: 100%;
+    height: 58.5px;
+    margin-top: 37px;
+    display: flex;
+    justify-content: space-between;
+   
+
+    /* Altura e largura da logo */
+    #imglogo{
+        width: 171px; 
+        height:32.78px; 
+        margin-left: 30.3px;
+    }
+
+    /*Altura e largura do icone */
+    #imgNavbar{
+        width: 24px;
+        height: 8px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 25px;
+        margin-bottom: 1pc;
+        
+
+    }
+
+    .containerCabeça_menu{
+    
+        ul{
+            
+            
+            display: inline-block;
+            
+            li{
+                
+                padding: 15px 0px;
+               
+                display: flex;
+                
+                a{
+                    color: $text-color;
+                    
+                }
+            }
+            
+        }
+
+    }
+
+
+
+}

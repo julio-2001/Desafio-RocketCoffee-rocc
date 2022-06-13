@@ -1,0 +1,16 @@
+
+/* Cor de fundo da pagina */
+$background-color:#060409 ;
+/*Cor do texto do navbar E texto principal */
+$text-color:white;
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: $background-color;
+    font-family: 'Manrope', sans-serif;
+}

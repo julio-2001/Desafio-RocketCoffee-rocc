@@ -8,32 +8,101 @@
     <title> RocketCoffee </title>
     <meta name="plataforma" content="rockseat">
 
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css"  href="src/assets/sass/css/comportamentoPagina.css">
+    <link rel="stylesheet" type="text/css" href="src/assets/sass/css/conteudo.css">
+    <link rel="stylesheet" type="text/css" href="src/assets/sass/css/menuEnavbar.css">
+
+    <!-- Fonte utilizada -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
+
     <!-- Icone da rocketseat -->
     <link rel="icon" type="image/x-icon" href="#">
  
 
 </head>
 <body>
+
     <header class="containerCabeça">
+
         <!-- Logo -->
-        <img src="assets/img/logo mobile.svg" alt="Logo rocketseat"/>
+        <img id="imglogo" src="src/assets/img/logo mobile.svg" alt="Logo rocketseat"/>
+
         <!-- Navbar -->
         <nav class="containerCabeça_menu" >
 
+            <ul class="contaierCabeça_menu_navbar " >
+                <img id="imgNavbar" src="src/assets/img/Menu Hambúrguer.svg"/>
+                
+                <!-- Icone do navbar "hamburguer" -->
 
+
+
+                <li>    
+                    <a href="#"> </a>  
+                </li>
+                
+                <li > 
+                    <a href="#">  </a> 
+                </li>
+
+                <li >
+                    <a href="#"> </a>  
+                </li>
+
+                <li >
+                    <a href="#">  </a>  
+                </li>
+
+                <li >
+                    <a href="#">  </a>  
+                </li>
+
+                
+
+            </ul>
+          
         </nav>
 
     </header>
+    
 
     <!-- conteudo principal -->
     <main class="containerPrincipal">
         <section class="containerPrincipal_conteudo">
 
 
+            <div class="containerPrincipal_conteudo_texto">
+                <!--Texto principal -->
+                <h1 id="textoPrincipal">
+                    O café que fará seu <br> código decolar para <br> o próximo nivel.
 
+                </h1>
+            </div>
+
+            <!--Botao no centro -->
+            <button class="conteinerPrincipal_conteudo_botao">
+                Pegar o meu café >
+            </button>
+
+            <!-- Texto marca -->
+            <div class="containerPrincipal_conteudo_marca">
+                <h1 id="textoMarca">
+                    Great Coffe
+                </h1>
+            </div>
+
+            <!-- Img do copo e os graos -->
+            <div class="containerPrincipal_conteudo_imgCopo">
+                <img id="copoCafeEgraos" src="src/assets/img/Img Coffee e graos.png" alt="Copo de café e graos de cafe">
+            </div>
 
 
         </section>
+
     </main>
+
 </body>
 </html>

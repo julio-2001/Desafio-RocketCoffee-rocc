@@ -1,7 +1,7 @@
 paleta de cores que serao usadas
 
 body{
-  background : #010002;
+  background : #060409;
    
 }
 
@@ -9,3 +9,7 @@ botao{
     border: solid 1px  #724dc9;
 
 } 
+
+Mobile (width 428px , heigth 926px)
+Desktop (width 1360px , heigth 768 px)
+       
