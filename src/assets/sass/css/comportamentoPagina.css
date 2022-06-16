@@ -3,10 +3,9 @@
 body {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-decoration: none;
   background: #060409;
-  font-family: 'Manrope', sans-serif;
-}
-/*# sourceMappingURL=comportamentoPagina.css.map */
+  /*Fonte utilizada em toda a pagin*/
+  font-family: "Manrope", sans-serif;
+}/*# sourceMappingURL=comportamentoPagina.css.map */

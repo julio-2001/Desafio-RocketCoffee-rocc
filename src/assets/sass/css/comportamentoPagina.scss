@@ -4,13 +4,21 @@ $background-color:#060409 ;
 /*Cor do texto do navbar E texto principal */
 $text-color:white;
 
-
+$text-coloNavbar:#a8a8b3;
 
 body{
+
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     background: $background-color;
+    /*Fonte utilizada em toda a pagin*/
     font-family: 'Manrope', sans-serif;
+
+    
+
+   
 }
+
+

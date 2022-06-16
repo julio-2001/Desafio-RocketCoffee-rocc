@@ -1,6 +1,6 @@
 @import 'comportamentoPagina';
 
-.containerCabeça{
+.containerCabeca{
 
     /*Caixa que guarda a logo e o icone */
     width: 100%;
@@ -17,6 +17,14 @@
         margin-left: 30.3px;
     }
 
+    #fechamenu{
+        width: 19.97px;
+        height: 16.97px;
+        margin-top: 5px;
+        margin-right: 35.5px;
+        display: none;
+    }
+
     /*Altura e largura do icone */
     #imgNavbar{
         width: 24px;
@@ -24,34 +32,79 @@
         justify-content: center;
         align-items: center;
         margin-right: 25px;
-        margin-bottom: 1pc;
+        display: flex;
+        margin-top: 10px;
         
 
     }
+}
 
-    .containerCabeça_menu{
+.navbar{
+    background: #000000;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    display: none;
     
-        ul{
-            
-            
-            display: inline-block;
-            
-            li{
-                
-                padding: 15px 0px;
-               
-                display: flex;
-                
-                a{
-                    color: $text-color;
-                    
-                }
-            }
+    li{
+        /**/
+        position: relative;
+        width: 100% ;
+        display: flex;
+        align-items: center;
+        right: 8px;
+        padding: 27px 0px;
+        bottom: 18px;
+        border-top: #434346 1px solid;
+
+
+        /* Recebe atributos padrao*/
+        a{
+            /* */
+            color: $text-coloNavbar;
+            margin-left:40px ;
+            text-decoration: none;
+            border-collapse: separate;
             
         }
 
+
+        #HOME{
+            color: white;
+        }
+        
+
+        &:hover{
+            box-shadow:0px 2px 1px #8257e5,
+            -1px -2px 5px blue ;
+            a{
+                color: white;
+            }
+        }
+    
+
+       &:active{
+           box-shadow: 5px 5px 0px white;
+           background: #8257e5;
+           border-radius: 2px;
+        
+
+            a{
+                color: white;
+            }
+        }
     }
 
 
+    #homee{
+        border-left: 5px solid #8257e5;
+    }
 
+}
+
+
+@media (min-height:925px){
+    body{
+        overflow: hidden;
+    }
 }

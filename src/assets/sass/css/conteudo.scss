@@ -4,6 +4,7 @@
     height: 1vh;
     margin-top: 88.05px;
 
+
     .containerPrincipal_conteudo_texto{
         /* Caixa que guarda o texto */
         width: 88%;
@@ -14,6 +15,7 @@
     
 
         h1{
+            
             /* colocar cor Variavel */
             color: white;
             font-size: 30px;
@@ -21,8 +23,10 @@
         }
     }
 
+
+    
     button{
-        /* Botao no centro*/
+        /* Botao no centro*/  
         /* Colocar color varivel*/
        color: white;
        background: transparent;
@@ -35,35 +39,70 @@
        justify-content: center;
        margin-top: 88px;
        border-radius: 6px;
+       cursor: pointer;
+
+
+       /* Efeito do botao */
+       &:hover{
+
+        background: #8257E5;
+        transition: 2s cubic-bezier(0.27, -0.8, 0.64, 2.1);
+        text-shadow: 2px 2px 1px black;
+        box-shadow: 4px 4px 1px white;
+        
+
+       }
     }
-    /*Adicionar hover no botao */
+    
+
 
     .containerPrincipal_conteudo_marca{
-        /*Caixa que guarda o texto marca */
+        /*Caixa que guarda o texto marca  e o texto Great Code*/
         background: rgb(0, 0, 0);
         height: 129px;
         width: 81%;
         margin: auto auto;
         margin-top: 98px;
 
+
+        /* Texto GREAT COFFE*/
         h1{
+            
             text-align: center;
             /*Colocar variavel de cor */
             color: white;
             font-size: 50px;
             letter-spacing: -3%;
             font-weight: 700;
-            line-height: 68.3px;
-            text-shadow: 0px 60px 1px #8257E5;
+            line-height: 68.3px;   
+            
+
+            /* Cria o texto <GREAT CODE/> em baixo do GREAT COFFE*/
+            &::after{ 
+
+                content:" <Great Code/>";
+                color: black;
+                text-shadow: -1px -1px 0px #8257E5, 
+                -3px 3px 0px #8257E5,                    
+                0px -3px 0px #8257E5,                  
+                2px 2px 0px #8257E5;
+            }
         }
     }
 
-    .containerPrincipal_conteudo_imgCopo{
+    .containerPrincipal_conteudo_imgCopo {
+
+        /*Imagem do copo e os graos de café */
         background: black;
         margin-top: 25px;
         align-items: center;
         display: flex; 
         justify-content: center;
         width: 100%;
+        
+
+        
+        
+        
     }
 }
